@@ -1,0 +1,1 @@
+export const manifestView=manifest=>({id:manifest.id,state:manifest.state,declaredKg:manifest.declaredKg,acceptedKg:manifest.segments.filter(x=>x.state==='accepted').reduce((n,x)=>n+(x.actualKg??0),0),segments:manifest.segments});

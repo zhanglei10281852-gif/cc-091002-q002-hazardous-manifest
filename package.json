@@ -1,0 +1,1 @@
+{"name":"hazardous-manifest-handover","version":"0.5.0","private":true,"type":"module","scripts":{"test":"node --test"},"engines":{"node":">=20"},"description":"危险废物电子联单交接服务"}
