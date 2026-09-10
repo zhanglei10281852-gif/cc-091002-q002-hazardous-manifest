@@ -1,0 +1,1 @@
+export class ManifestStore { #items=new Map(); create(manifest){this.#items.set(manifest.id,structuredClone(manifest));} get(id){const value=this.#items.get(id);return value&&structuredClone(value);} save(manifest){this.#items.set(manifest.id,structuredClone(manifest));} }
